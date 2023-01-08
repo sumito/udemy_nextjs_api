@@ -2,8 +2,6 @@
 # exit on error
 set -o errexit
 
-apk add rust cargo
- 
 
 pip install -r requirements.txt
  
