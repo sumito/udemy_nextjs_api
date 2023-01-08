@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # exit on error
 set -o errexit
+
+apk add rust cargo
  
-cargo build --release
 
 pip install -r requirements.txt
  
