@@ -54,6 +54,7 @@ INSTALLED_APPS = [
 ]
 
 CORS_ORIGIN_WHITELIST = [
+    "https://nextjs-blog-todos-tau.vercel.app",
     "http://localhost:3000",
 ]
 
